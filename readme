@@ -1,0 +1,5 @@
+convert *.aspx a.png
+ocropus-gtedit html *.png
+ocropus-gtedit extract correction.html -p 000
+ocropus-rtrain 000/????/*.png -o 0
+
